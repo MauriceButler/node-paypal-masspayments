@@ -1,7 +1,7 @@
 {
-  "name": "node-paypal-masspayments",
+  "name": "paypal-masspayments-node",
   "description": "Making payments with MassPayment NVP",
-  "author": "http://github.com/mateodelnorte",
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
   "version": "0.0.5",
   "dependencies": {
     "request": "~2.33.0",
@@ -14,9 +14,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mateodelnorte/node-paypal-masspayments.git"
+    "url": "https://github.com/MauriceButler/paypal-masspayments-node"
   },
   "scripts": {
     "test": "node ./test/all.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/MauriceButler/paypal-masspayments-node/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/paypal-masspayments-node",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "PayPal",
+    "MassPayments",
+    "Mass",
+    "Payments",
+    "NVP",
+    "name",
+    "value",
+    "pair"
+  ],
+  "license": "MIT"
 }
