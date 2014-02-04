@@ -2,7 +2,7 @@
   "name": "paypal-masspayments-node",
   "description": "Making payments with MassPayment NVP",
   "author": "Maurice Butler <maurice.butler@gmail.com>",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "request": "~2.33.0",
     "qs": "~0.6.6",
