@@ -1,4 +1,5 @@
 # PayPal Mass Payments NVP
+(Updated / Modified version of [mateodelnorte/node-paypal-masspayments](https://github.com/mateodelnorte/node-paypal-masspayments))
 
 ## Read more about PayPal Mass Payment here:
 
@@ -11,11 +12,11 @@ https://developer.paypal.com/
 
 ## How to use
 
-Require the masspayments module in your code: 
+Require the masspayments module in your code:
 
     var MassPay = require('node-paypal-masspayments')
 
-Instantiate a new instance of the class and provide to it an options variable that provides access to your paypal password, user, api signature, and a subject for your masspayment emails. 
+Instantiate a new instance of the class and provide to it an options variable that provides access to your paypal password, user, api signature, and a subject for your masspayment emails.
 
     var mp = new MassPay({
         pwd: process.env.PAYPAL_PWD
@@ -24,7 +25,7 @@ Instantiate a new instance of the class and provide to it an options variable th
         , emailsubject: process.env.PAYPAL_EMAILSUBJECT
     }),
 
-You'll send your payments in batches of up to 250. Each batch is created and passed an array of payment request json objects, each defining an email, amount, uniqueId, and note for the request. 
+You'll send your payments in batches of up to 250. Each batch is created and passed an array of payment request json objects, each defining an email, amount, uniqueId, and note for the request.
 
     var paymentRequests = [
       {
